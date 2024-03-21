@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    justify-content: center;
+    bottom: 0;
+    background-color: #2f7bee;
+   position: absolute;
+   width: 100%;
+   color: white;
+}
+.footer_top {
+    display: flex;
+    align-items: center;
+   
+}
+.footer_link {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: #2f7bee;
+    padding: 5px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+.footer_link:hover {
+   color: #2f7bee;
+   background-color: white;
+   border-radius: 7px;
+   transition:all 0.5s ease ;
+}
